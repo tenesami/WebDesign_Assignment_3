@@ -1,0 +1,80 @@
+style.css
+/* Overall page look (matches ex4-5_index style) */
+
+body {
+    margin: 0;
+    background: #f6efe2;
+    /* warm beige */
+    color: #111;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 42px 70px 80px;
+}
+
+
+/* Header */
+
+.site-header {
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.logo {
+    display: block;
+    width: 160px;
+    height: auto;
+    margin: 0 auto 14px;
+}
+
+h1 {
+    margin: 0 0 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 44px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+/* Blue divider line */
+
+.rule {
+    border: 0;
+    height: 2px;
+    background: #77bfe0;
+    margin: 10px 0 0;
+}
+
+
+/* Section headings */
+
+h2 {
+    margin: 26px 0 8px;
+    font-size: 24px;
+    color: #d47b3a;
+    /* orange */
+    font-weight: 700;
+}
+
+
+/* Paragraph text spacing */
+
+p {
+    margin: 0 0 18px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* Hours block keeps same feel */
+
+.hours {
+    margin-top: 6px;
+}
+
+em {
+    font-style: italic;
+}
